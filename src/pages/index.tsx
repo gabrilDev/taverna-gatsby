@@ -1,9 +1,10 @@
 import type { HeadFC, PageProps } from "gatsby"
 import * as React from "react"
+import Footer from "../partials/Footer"
 
 const IndexPage: React.FC<PageProps> = () => {
   return (<main>
-    <h1 className="bg-red-500"> sexor</h1>
+    <Footer/>
   </main>
     
   )
